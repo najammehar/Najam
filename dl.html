@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Short Courses | Learn Generative AI From DeepLearning.AI</title>
+  </head>
+  <body>
+    <div style="background-color: #094567;">
+      <div class="alert alert-warning alert-dismissible fade show sec-2-container" role="alert" style="background-color: #094567;border: none;color: white;" >
+        New Course! Enroll in <a href="#" style="color: #fff;">knowledge Graphs for RAG</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="border: none; color: #fff;"></button>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container-fluid" style="max-width: 1232px;">
+          <a class="navbar-brand" href="#">
+              <div style="color: #f65b66;">
+                  <svg viewBox="0 0 272 34" fill="none" xmlns="http://www.w3.org/2000/svg" width="14rem" height="2rem" aria-label="DeepLearning.AI"><g fill="currentColor"><path d="M56.775 16.108c0 6.206-4.252 10.005-10.747 10.005H39.42V5.961h6.608c6.495 0 10.747 3.924 10.747 10.147zm-10.747 7.306c4.778 0 7.337-2.724 7.337-7.306 0-4.581-2.56-7.452-7.337-7.452H42.73v14.758h3.298z"></path><path d="M66.97 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.259-8.226 8.006-8.226c4.571 0 7.804 3.159 7.804 7.856.007.535-.027 1.07-.103 1.6H62.412c.233 2.638 2.123 4.232 4.57 4.232 2.038 0 3.173-.988 3.786-2.234h3.582c-.915 2.802-3.448 5.032-7.38 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.484-4.03-2.24 0-4.044 1.525-4.394 4.03z"></path><path d="M84.938 26.371c-4.601 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.792 9.792 0 01-.116 1.6H80.367c.233 2.638 2.128 4.232 4.57 4.232 2.042 0 3.177-.988 3.786-2.234h3.582c-.902 2.802-3.435 5.032-7.367 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M104.917 9.885c4.221 0 7.541 3.245 7.541 8.166 0 4.92-3.32 8.32-7.541 8.32a7.277 7.277 0 01-3.095-.664 7.248 7.248 0 01-2.516-1.914v9.915h-3.319v-23.57h3.32v2.347a7.004 7.004 0 015.61-2.6zm-.729 2.871c-2.473 0-4.86 1.943-4.86 5.364 0 3.42 2.387 5.39 4.86 5.39 2.473 0 4.894-2.02 4.894-5.46 0-3.437-2.391-5.303-4.894-5.303v.009z"></path><path d="M119.074 5.961v17.484h6.841v2.668h-10.16V5.961h3.319z"></path><path d="M135.584 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.927 9.927 0 01-.116 1.625h-12.258c.233 2.639 2.128 4.233 4.571 4.233 2.041 0 3.176-.988 3.785-2.235h3.582c-.902 2.777-3.435 5.007-7.367 5.007zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M153.116 9.885a6.864 6.864 0 013.088.633 6.839 6.839 0 012.475 1.946v-2.325h3.349v15.974h-3.349v-2.38a6.906 6.906 0 01-5.611 2.638c-4.165 0-7.514-3.39-7.514-8.32s3.353-8.166 7.562-8.166zm.699 2.87c-2.473 0-4.86 1.853-4.86 5.304 0 3.451 2.387 5.45 4.86 5.45 2.473 0 4.864-1.938 4.864-5.39 0-3.45-2.361-5.372-4.864-5.372v.009z"></path><path d="M169.72 26.114h-3.319V10.139h3.319v2.325c.928-1.595 2.534-2.579 4.804-2.579v3.438h-.863c-2.447 0-3.958 1.014-3.958 4.405l.017 8.386z"></path><path d="M188.966 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.044 1.504-4.044 4.435v8.922h-3.319V10.14h3.319v1.826a6.16 6.16 0 014.774-2.08c3.755 0 6.582 2.347 6.582 6.812v9.416h-3.293v-8.922z"></path><path d="M196.049 5.905a2.105 2.105 0 011.309-1.931 2.117 2.117 0 012.294.458 2.102 2.102 0 01-1.48 3.588 2.109 2.109 0 01-1.509-.612 2.08 2.08 0 01-.614-1.503zm.431 4.234h3.319v15.974h-3.319V10.14z"></path><path d="M215.558 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.048 1.504-4.048 4.435v8.922h-3.337V10.14h3.319v1.826a6.192 6.192 0 014.796-2.08c3.755 0 6.56 2.338 6.56 6.803v9.425h-3.289l.018-8.922z"></path><path d="M229.538 9.885c2.62 0 4.571 1.216 5.559 2.579v-2.325h3.349V26.37c0 4.35-2.823 7.629-7.829 7.629-4.282 0-7.454-2.119-7.864-5.656h3.289c.496 1.655 2.274 2.785 4.575 2.785 2.559 0 4.48-1.569 4.48-4.758v-2.664a6.903 6.903 0 01-5.559 2.665c-4.222 0-7.571-3.392-7.571-8.321 0-4.93 3.337-8.166 7.571-8.166zm.699 2.87c-2.478 0-4.864 1.853-4.864 5.304 0 3.452 2.386 5.45 4.864 5.45 2.477 0 4.86-1.938 4.86-5.39 0-3.45-2.357-5.372-4.86-5.372v.009z"></path><path d="M242.702 26.316a2.134 2.134 0 01-1.987-1.287 2.114 2.114 0 011.53-2.908 2.138 2.138 0 012.194.896c.235.349.361.76.361 1.18a2.096 2.096 0 01-1.289 1.956 2.11 2.11 0 01-.809.163z"></path><path d="M260.584 21.996h-8.477l-1.455 4.117h-3.453l7.251-20.2h3.846l7.247 20.2h-3.492l-1.467-4.117zM256.38 9.932l-3.341 9.365h6.612l-3.271-9.365z"></path><path d="M268.681 5.961H272v20.152h-3.319V5.961z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218zm.126-1.59c-3.734 0-6.76-3.207-6.76-7.16 0-3.954 3.018-7.16 6.75-7.16 3.734 0 6.76 3.206 6.76 7.16s-3.021 7.16-6.76 7.16h.01zm-.126-6.28c.729 0 1.44-.214 2.046-.617a3.67 3.67 0 001.356-1.646 3.652 3.652 0 00-.798-3.995 3.687 3.687 0 00-4.012-.794 3.679 3.679 0 00-1.653 1.35 3.655 3.655 0 00-.62 2.037c.002.971.39 1.902 1.08 2.59a3.698 3.698 0 002.601 1.076z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73z"></path></g></svg>
+
+              </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Courses
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Short Courses</a></li>
+                          <li><a class="dropdown-item" href="#">Specializations</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          AI Newsletter
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">The Batch</a></li>
+                          <li><a class="dropdown-item" href="#">Andrew's Letter</a></li>
+                          <li><a class="dropdown-item" href="#">Data Points</a></li>
+                          <li><a class="dropdown-item" href="#">ML Research</a></li>
+                          <li><a class="dropdown-item" href="#">Blog</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Community
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Forum</a></li>
+                          <li><a class="dropdown-item" href="#">Events</a></li>
+                          <li><a class="dropdown-item" href="#">Ambassadors</a></li>
+                          <li><a class="dropdown-item" href="#">Ambassador Spotlight</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Resources</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Careers</a></li>
+                          <li><a class="dropdown-item" href="#">Contact</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <button class="btn custom-btn mx-2">Start Learning</button>
+          </div>
+      </div>
+  </nav>
+    <section class="sec-1">
+        <div class="header-flex">
+            <div class="flex-container">
+              <div class="flex-content">
+                <span class="flex-text color-white">LEARN GENERATIVE AI</span>
+                <h1 class="flex-title color-white">Short Courses</h1>
+                <p class="f-text-lg color-white">
+                  Take your generative AI skills to the next level with short courses
+                  from DeepLearning.AI. Our short courses help you learn new skills,
+                  tools, and concepts efficiently. Available for free for a limited
+                  time.
+                </p>
+              </div>
+              <div class="flex-image">
+                <img src="5.png" alt="" />
+              </div>
+            </div>
+          </div>
+    </section>  
+    <section class="sec-2">
+    <div class="sec-2-container">
+        <div class="containers mb-4 mx-0 px-0">
+                <span class="flex-text c-g">Just Added</span>
+        </div>
+        <div class="card-container">
+            <div class="image-container">
+              <div class="image">
+                <img src="1.jpg" alt="image" />
+              </div>
+              <div class="i-text">
+                <p>IN COLLABORATION WITH</p>
+                <img src="4.png" alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <div class="title-of-card">
+                <h2>Knowledge Graphs for RAG</h2>
+              </div>
+              <div>
+                <p class="text">
+                  Learn how to build and use knowledge graph systems to improve your
+                  retrieval augmented generation applications.
+                </p>
+                <ul>
+                  <li class="text">
+                    Use Neo4j’s query language Cypher to manage and retrieve data
+                    stored in knowledge graphs.
+                  </li>
+                  <li class="text">
+                    Write knowledge graph queries that find and format text data to
+                    provide more relevant context to LLMs for Retrieval Augmented
+                    Generation.
+                  </li>
+                  <li class="text">
+                    Build a question-answering system using Neo4j and LangChain to
+                    chat with a knowledge graph of structured text documents.
+                  </li>
+                </ul>
+              </div>
+              <div class="icons-with-text">
+                <div class="size">
+                  <div class="icon-with-text text">
+                    <!-- <span class="material-symbols-outlined">
+                              signal_cellular_alt_1_bar
+                              </span> -->
+                    <span class="material-symbols-outlined color">
+                      signal_cellular_alt_2_bar
+                    </span>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+                <div class="size">
+                  <div class="icon-with-text text">
+                    <span class="material-symbols-outlined color">
+                      cast_for_education
+                    </span>
+                    <span>Andreas Kollegger</span>
+                  </div>
+                </div>
+                <div>
+                  <div id="icon-with-text" class="text">
+                    <span class="material-symbols-outlined color">
+                      import_contacts
+                    </span>
+                    <span
+                      >Prerequisite recommendation: We recommend familiarity with
+                      LangChain or taking "LangChain: Chat with Your Data" prior to
+                      this course.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <div>
+                  <button class="button-1">Enroll For Free</button>
+                </div>
+                <button class="button-2">Learn More</button>
+              </div>
+            </div>
+          </div>
+        <div class="containers mx-0 mb-5 mt-7 px-0">
+            <div class="row  mx-0 align-items-center ">
+              <div class="col-md-auto px-0">
+                <span class="flex-text c-g">All Courses</span>
+              </div>
+              <div class="col text-md-end mt-2 mt-md-0 px-0">
+                <button class="btn button btn-light c-g btn-custom px-4 me-2 mb-2 selected" onclick="selectButton(this)">All</button>
+                <button class="btn button btn-light c-g btn-custom px-4 me-2 mb-2" onclick="selectButton(this)">Beginners</button>
+                <button class="btn button btn-light c-g btn-custom px-4 me-2 mb-2" onclick="selectButton(this)">Intermediate</button>
+                <button class="btn button btn-light c-g btn-custom px-4 mb-2" onclick="selectButton(this)">Advanced</button>
+              </div>
+            </div>
+          </div>
+          <script>
+            let selectedButton = document.querySelector('.selected');
+            let button1 = document.querySelector('#button1');
+          
+            function selectButton(button) {
+              // Deselect the previously selected button
+              if (selectedButton !== button) {
+                selectedButton.classList.remove('selected');
+              }
+          
+              // Select the clicked button
+              button.classList.add('selected');
+              selectedButton = button;
+          
+              // Deselect Button 1 if another button is selected
+              if (button !== button1) {
+                button1.classList.remove('selected');
+              }
+            }
+          </script>
+        <div class="card-container">
+      <div class="image-container">
+        <div class="image">
+          <img src="1.jpg" alt="image" />
+        </div>
+        <div class="i-text">
+          <p>IN COLLABORATION WITH</p>
+          <img src="4.png" alt="" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="title-of-card">
+          <h2>Knowledge Graphs for RAG</h2>
+        </div>
+        <div>
+          <p class="text">
+            Learn how to build and use knowledge graph systems to improve your
+            retrieval augmented generation applications.
+          </p>
+          <ul>
+            <li class="text">
+              Use Neo4j’s query language Cypher to manage and retrieve data
+              stored in knowledge graphs.
+            </li>
+            <li class="text">
+              Write knowledge graph queries that find and format text data to
+              provide more relevant context to LLMs for Retrieval Augmented
+              Generation.
+            </li>
+            <li class="text">
+              Build a question-answering system using Neo4j and LangChain to
+              chat with a knowledge graph of structured text documents.
+            </li>
+          </ul>
+        </div>
+        <div class="icons-with-text">
+          <div class="size">
+            <div class="icon-with-text text">
+              <!-- <span class="material-symbols-outlined">
+                        signal_cellular_alt_1_bar
+                        </span> -->
+              <span class="material-symbols-outlined color">
+                signal_cellular_alt_2_bar
+              </span>
+              <p>Intermediate</p>
+            </div>
+          </div>
+          <div class="size">
+            <div class="icon-with-text text">
+              <span class="material-symbols-outlined color">
+                cast_for_education
+              </span>
+              <span>Andreas Kollegger</span>
+            </div>
+          </div>
+          <div>
+            <div id="icon-with-text" class="text">
+              <span class="material-symbols-outlined color">
+                import_contacts
+              </span>
+              <span
+                >Prerequisite recommendation: We recommend familiarity with
+                LangChain or taking "LangChain: Chat with Your Data" prior to
+                this course.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <div>
+            <button class="button-1">Enroll For Free</button>
+          </div>
+          <button class="button-2">Learn More</button>
+        </div>
+      </div>
+    </div>
+</div>
+    </section>
+    <section class="sec-3">
+        <div class="footer-flex">
+            <div class="ff-content">
+              <h2 class="ff-title color-white">
+                Generative AI with Large Language Models (LLMs)
+              </h2>
+              <p class="ff-text-lg color-white">
+                Learn the fundamentals of how generative AI works, and how to deploy
+                it in real-world applications.
+              </p>
+              <p class="color-white flex-text" style="margin-top: 1.5rem">In Collaboration with</p>
+              <span class="logo-size">
+                  <svg
+                  id="Amazon_Web_Services_Logo_svg__Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0"
+                  y="0"
+                  viewBox="0 0 304 182"
+                  xml:space="preserve"
+                >
+                  <style>
+                    .Amazon_Web_Services_Logo_svg__st1 {
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #fff;
+                    }
+                  </style>
+                  <path
+                    d="M86.4 66.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3L83.2 92c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5C41 1.9 46.2 1.3 51.7 1.3c11.9 0 20.6 2.7 26.2 8.1 5.5 5.4 8.3 13.6 8.3 24.6v32.4zM45.8 81.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L96.7 10.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L156 23l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2L246 52c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z"
+                    style="fill: rgb(255, 255, 255)"
+                  ></path>
+                  <path
+                    class="Amazon_Web_Services_Logo_svg__st1"
+                    d="M273.5 143.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z"
+                  ></path>
+                  <path
+                    class="Amazon_Web_Services_Logo_svg__st1"
+                    d="M287.2 128.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z"
+                  ></path></svg></span>
+                  <button class="button-1" style="margin-top: 2.5rem;">Learn More</button>
+            </div>
+            <div class="ff-image"><img src="6.png" alt="" /></div>
+          </div>
+    </section>
+    <section class="sec-4">
+        <div class="quotation">
+            <div class="q-mark">
+                <svg width="39" height="35" viewBox="0 0 39 35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M34.3132 34.3125C35.3243 34.3125 36.294 33.9108 37.009 33.1958C37.724 32.4809 38.1257 31.5111 38.1257 30.5V21.1899C38.1257 20.1787 37.724 19.209 37.009 18.494C36.294 17.779 35.3243 17.3774 34.3132 17.3774H29.0214C29.0214 16.0392 29.1015 14.6972 29.2578 13.359C29.4942 11.9408 29.8907 10.6788 30.4397 9.577C30.9925 8.47138 31.7016 7.60594 32.5708 6.97306C33.4363 6.26394 34.5381 5.90938 35.8801 5.90938V0C33.6727 0 31.7435 0.47275 30.0851 1.41825C28.4411 2.35416 27.0276 3.64647 25.9485 5.20025C24.8655 6.91326 24.0672 8.79047 23.5848 10.7589C23.0986 12.9311 22.8607 15.1515 22.8757 17.3774V30.5C22.8757 31.5111 23.2773 32.4809 23.9923 33.1958C24.7073 33.9108 25.677 34.3125 26.6882 34.3125H34.3132ZM11.4382 34.3125C12.4493 34.3125 13.419 33.9108 14.134 33.1958C14.849 32.4809 15.2507 31.5111 15.2507 30.5V21.1899C15.2507 20.1787 14.849 19.209 14.134 18.494C13.419 17.779 12.4493 17.3774 11.4382 17.3774H6.14641C6.14641 16.0392 6.22647 14.6972 6.38278 13.359C6.61916 11.9408 7.01566 10.6788 7.56466 9.577C8.11747 8.47138 8.8266 7.60594 9.69585 6.97306C10.5613 6.26394 11.6631 5.90938 13.0051 5.90938V0C10.7977 0 8.86853 0.47275 7.2101 1.41825C5.5661 2.35416 4.15263 3.64647 3.07354 5.20025C1.9905 6.91326 1.19224 8.79047 0.709786 10.7589C0.223639 12.9311 -0.0142609 15.1515 0.000660623 17.3774V30.5C0.000660623 31.5111 0.402333 32.4809 1.11732 33.1958C1.8323 33.9108 2.80202 34.3125 3.81316 34.3125H11.4382Z" fill="#20CAF2"></path></svg>
+            </div>
+            <div class="quote">
+                Generative AI offers many opportunities for AI engineers to build, in minutes or hours, powerful applications that previously would have taken days or weeks. I'm excited about sharing these best practices to enable many more people to take advantage of these revolutionary new capabilities.
+            </div>
+            <div class="q-author">- Andrew Ng</div>
+        </div>
+    </section>
+    <footer class="py-5" style="background-color: rgba(69, 91, 102, 1);">
+        <div class="nav justify-content-center mb-3 pb-3 text-white"><svg viewBox="0 0 272 34" fill="none" xmlns="http://www.w3.org/2000/svg" width="14rem" height="2rem" aria-label="DeepLearning.AI"><g fill="currentColor"><path d="M56.775 16.108c0 6.206-4.252 10.005-10.747 10.005H39.42V5.961h6.608c6.495 0 10.747 3.924 10.747 10.147zm-10.747 7.306c4.778 0 7.337-2.724 7.337-7.306 0-4.581-2.56-7.452-7.337-7.452H42.73v14.758h3.298z"></path><path d="M66.97 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.259-8.226 8.006-8.226c4.571 0 7.804 3.159 7.804 7.856.007.535-.027 1.07-.103 1.6H62.412c.233 2.638 2.123 4.232 4.57 4.232 2.038 0 3.173-.988 3.786-2.234h3.582c-.915 2.802-3.448 5.032-7.38 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.484-4.03-2.24 0-4.044 1.525-4.394 4.03z"></path><path d="M84.938 26.371c-4.601 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.792 9.792 0 01-.116 1.6H80.367c.233 2.638 2.128 4.232 4.57 4.232 2.042 0 3.177-.988 3.786-2.234h3.582c-.902 2.802-3.435 5.032-7.367 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M104.917 9.885c4.221 0 7.541 3.245 7.541 8.166 0 4.92-3.32 8.32-7.541 8.32a7.277 7.277 0 01-3.095-.664 7.248 7.248 0 01-2.516-1.914v9.915h-3.319v-23.57h3.32v2.347a7.004 7.004 0 015.61-2.6zm-.729 2.871c-2.473 0-4.86 1.943-4.86 5.364 0 3.42 2.387 5.39 4.86 5.39 2.473 0 4.894-2.02 4.894-5.46 0-3.437-2.391-5.303-4.894-5.303v.009z"></path><path d="M119.074 5.961v17.484h6.841v2.668h-10.16V5.961h3.319z"></path><path d="M135.584 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.927 9.927 0 01-.116 1.625h-12.258c.233 2.639 2.128 4.233 4.571 4.233 2.041 0 3.176-.988 3.785-2.235h3.582c-.902 2.777-3.435 5.007-7.367 5.007zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M153.116 9.885a6.864 6.864 0 013.088.633 6.839 6.839 0 012.475 1.946v-2.325h3.349v15.974h-3.349v-2.38a6.906 6.906 0 01-5.611 2.638c-4.165 0-7.514-3.39-7.514-8.32s3.353-8.166 7.562-8.166zm.699 2.87c-2.473 0-4.86 1.853-4.86 5.304 0 3.451 2.387 5.45 4.86 5.45 2.473 0 4.864-1.938 4.864-5.39 0-3.45-2.361-5.372-4.864-5.372v.009z"></path><path d="M169.72 26.114h-3.319V10.139h3.319v2.325c.928-1.595 2.534-2.579 4.804-2.579v3.438h-.863c-2.447 0-3.958 1.014-3.958 4.405l.017 8.386z"></path><path d="M188.966 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.044 1.504-4.044 4.435v8.922h-3.319V10.14h3.319v1.826a6.16 6.16 0 014.774-2.08c3.755 0 6.582 2.347 6.582 6.812v9.416h-3.293v-8.922z"></path><path d="M196.049 5.905a2.105 2.105 0 011.309-1.931 2.117 2.117 0 012.294.458 2.102 2.102 0 01-1.48 3.588 2.109 2.109 0 01-1.509-.612 2.08 2.08 0 01-.614-1.503zm.431 4.234h3.319v15.974h-3.319V10.14z"></path><path d="M215.558 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.048 1.504-4.048 4.435v8.922h-3.337V10.14h3.319v1.826a6.192 6.192 0 014.796-2.08c3.755 0 6.56 2.338 6.56 6.803v9.425h-3.289l.018-8.922z"></path><path d="M229.538 9.885c2.62 0 4.571 1.216 5.559 2.579v-2.325h3.349V26.37c0 4.35-2.823 7.629-7.829 7.629-4.282 0-7.454-2.119-7.864-5.656h3.289c.496 1.655 2.274 2.785 4.575 2.785 2.559 0 4.48-1.569 4.48-4.758v-2.664a6.903 6.903 0 01-5.559 2.665c-4.222 0-7.571-3.392-7.571-8.321 0-4.93 3.337-8.166 7.571-8.166zm.699 2.87c-2.478 0-4.864 1.853-4.864 5.304 0 3.452 2.386 5.45 4.864 5.45 2.477 0 4.86-1.938 4.86-5.39 0-3.45-2.357-5.372-4.86-5.372v.009z"></path><path d="M242.702 26.316a2.134 2.134 0 01-1.987-1.287 2.114 2.114 0 011.53-2.908 2.138 2.138 0 012.194.896c.235.349.361.76.361 1.18a2.096 2.096 0 01-1.289 1.956 2.11 2.11 0 01-.809.163z"></path><path d="M260.584 21.996h-8.477l-1.455 4.117h-3.453l7.251-20.2h3.846l7.247 20.2h-3.492l-1.467-4.117zM256.38 9.932l-3.341 9.365h6.612l-3.271-9.365z"></path><path d="M268.681 5.961H272v20.152h-3.319V5.961z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218zm.126-1.59c-3.734 0-6.76-3.207-6.76-7.16 0-3.954 3.018-7.16 6.75-7.16 3.734 0 6.76 3.206 6.76 7.16s-3.021 7.16-6.76 7.16h.01zm-.126-6.28c.729 0 1.44-.214 2.046-.617a3.67 3.67 0 001.356-1.646 3.652 3.652 0 00-.798-3.995 3.687 3.687 0 00-4.012-.794 3.679 3.679 0 00-1.653 1.35 3.655 3.655 0 00-.62 2.037c.002.971.39 1.902 1.08 2.59a3.698 3.698 0 002.601 1.076z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73z"></path></g></svg></div>
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">Short Courses</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">Specializations</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">The Batch</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">Community</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">Careers</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-3 flex-text fs-5 fw-normal f-t-c">About</a></li>
+        </ul>
+        <div class="nav justify-content-center">
+            <a rel="noopener noreferrer" target="_blank" class="mx-2 text-2xl text-white transition-colors lg:text-3xl hover:text-white" href="https://www.facebook.com/1027125564106325"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg></a>
+            <a rel="noopener noreferrer" target="_blank" class="mx-2 text-2xl text-white transition-colors lg:text-3xl hover:text-white" href="https://www.instagram.com/deeplearningai"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg></a>
+            <a rel="noopener noreferrer" target="_blank" class="mx-2 text-2xl text-white transition-colors lg:text-3xl hover:text-white" href="http://twitter.com/deeplearningai"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path></svg></a>
+            <a rel="noopener noreferrer" target="_blank" class="mx-2 text-2xl text-white transition-colors lg:text-3xl hover:text-white" href="https://www.linkedin.com/company/18246783"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path></svg></a>
+            <a rel="noopener noreferrer" target="_blank" class="mx-2 text-2xl text-white transition-colors lg:text-3xl hover:text-white" href="https://www.youtube.com/c/Deeplearningai"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
